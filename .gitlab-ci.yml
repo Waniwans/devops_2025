@@ -23,4 +23,4 @@ build-image:
 deploy:
   stage: deploy
   script:
-    - curl -X POST http://<jenkins-ip>:8080/gitlab/build?token=<your-token>
+    - curl -X POST http://192.168.1.7:8080/gitlab/build?token=otomaton-token
